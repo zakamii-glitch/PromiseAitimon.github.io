@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promise Aitimon | AI Automation & Web Developer</title>
+<meta name="description" content="Promise Aitimon builds AI-powered automations and websites with Python and JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F6; --ink:#14213D; --muted:#4A5873; --card:#FFFFFF;
+  --accent:#1F6F8B; --line:#CBD5E1; --node:#DCEBF2;
+  --head:"Bricolage Grotesque","Trebuchet MS",sans-serif;
+  --body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0F1A2E; --ink:#E8EEF7; --muted:#A5B4CC; --card:#18263F; --accent:#6CC1DE; --line:#2B3C5C; --node:#1E3350;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 var(--body)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header{padding:28px 0 8px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+header strong{font-family:var(--head);font-size:1.1rem}
+nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-weight:600}
+nav a:hover{color:var(--accent)}
+.hero{padding:56px 0 40px}
+h1{font-family:var(--head);font-size:clamp(2rem,6vw,3.4rem);line-height:1.1;margin:0 0 16px;max-width:16ch}
+.hero p{max-width:54ch;color:var(--muted);margin:0 0 24px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:11px 22px;border-radius:6px;text-decoration:none;font-weight:600}
+@media (prefers-color-scheme:dark){.btn{color:#0F1A2E}}
+.flow{display:flex;align-items:center;gap:8px;margin-top:36px;flex-wrap:wrap}
+.flow span{background:var(--node);border:1px solid var(--line);padding:8px 14px;border-radius:6px;font-weight:600;font-size:.95rem}
+.flow i{width:22px;height:2px;background:var(--accent)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-family:var(--head);font-size:1.6rem;margin:0 0 18px}
+.grid{display:grid;gap:16px}
+@media (min-width:700px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px}
+.card h3{font-family:var(--head);margin:0 0 6px;font-size:1.15rem}
+.card p{margin:0 0 10px;color:var(--muted);font-size:.98rem}
+.tag{font-size:.85rem;color:var(--accent);font-weight:600}
+ul.skills{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+ul.skills li{background:var(--card);border:1px solid var(--line);padding:5px 12px;border-radius:999px;font-size:.95rem}
+footer{padding:30px 0 50px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <strong>Promise Aitimon</strong>
+    <nav><a href="#projects">Projects</a><a href="#creative">Creative</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>I automate repetitive work with AI.</h1>
+      <p>I'm a web developer and computer science graduate who builds workflows that connect AI models to the tools businesses already use, so teams spend less time on manual tasks.</p>
+      <a class="btn" href="#projects">See my projects</a>
+      <div class="flow" aria-label="Example workflow: form, AI, spreadsheet">
+        <span>Form submitted</span><i></i><span>AI reads it</span><i></i><span>Sheet updated</span>
+      </div>
+    </div>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <!-- TODO: Replace each card with a real project. Keep: problem, tools, result, link. -->
+        <article class="card">
+          <h3>Invoice extractor</h3>
+          <p>Pulls vendor, date, and total from PDF invoices into a spreadsheet.</p>
+          <span class="tag">Python · LLM API · In progress</span>
+        </article>
+        <article class="card">
+          <h3>Lead auto-responder</h3>
+          <p>Replies to website enquiries and alerts me on Slack or email.</p>
+          <span class="tag">n8n · JavaScript · In progress</span>
+        </article>
+        <article class="card">
+          <h3>Feedback analyzer</h3>
+          <p>Turns customer reviews into sentiment and top complaints.</p>
+          <span class="tag">Python · pandas · In progress</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="creative">
+      <h2>Creative work</h2>
+      <p>Alongside automation, I design brands and produce ads, including AI-generated video.</p>
+      <div class="grid">
+        <!-- TODO: Replace each card with a real piece. For images, use <img src="images/yourfile.jpg" alt="what it shows">.
+             For videos, upload to YouTube and paste its embed <iframe> inside the card. -->
+        <article class="card">
+          <h3>AI video ads</h3>
+          <p>[One line: the brand, the goal, and the result, e.g. views or clicks.]</p>
+          <span class="tag">[Tools used]</span>
+        </article>
+        <article class="card">
+          <h3>Branding</h3>
+          <p>[One line: logo and brand kit for a client or concept brand.]</p>
+          <span class="tag">[Tools used]</span>
+        </article>
+        <article class="card">
+          <h3>Ads and image editing</h3>
+          <p>[One line: social ads or retouching, with a before and after if you can.]</p>
+          <span class="tag">[Tools used]</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I hold a B.Sc. in Computer Science from the University of Benin. I build websites with HTML, CSS, and JavaScript, analyze data with Python, and I'm focused on AI automation. I also do graphic design, branding, image editing, and AI video ads. [Add one personal line: what you enjoy building, or where you're based.]</p>
+      <ul class="skills">
+        <li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Data analysis</li><li>LLM APIs</li><li>n8n / Make</li><li>Graphic design</li><li>Branding</li><li>AI video</li><li>Git</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Need something automated? Email me at <a href="mailto:aitimonmicheal@gmail.com">aitimonmicheal@gmail.com</a>.</p>
+      <!-- TODO: add your LinkedIn and GitHub links here -->
+      <p><a href="#">LinkedIn</a> &nbsp; <a href="#">GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Promise Aitimon</footer>
+</div>
+</body>
+</html>
